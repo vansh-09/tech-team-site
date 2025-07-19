@@ -14,7 +14,7 @@ body {
   }
 
   .bg-overlay {
-    background-image: url("assets/website Tech/image.jpg"); /* Update this path */
+    background-image: url("assets/website Tech/image.jpg"); 
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -22,7 +22,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.6; /* Controls background opacity */
+    opacity: 0.6; 
     z-index: 1;
   }
 
@@ -181,7 +181,7 @@ body {
   }
 
   .hero-arrow {
-    width: 60px; /* adjust based on your Figma */
+    width: 60px; 
     height: auto;
     margin-top: 20px;
   }
@@ -648,7 +648,7 @@ body {
 .groupbox {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 60px; /* increased from 30px to 60px */
+  gap: 60px; 
   max-width: 1140px;
   margin: 0 auto;
   width: 100%;
@@ -901,12 +901,12 @@ footer .logo {
 
 @media (max-width: 1024px) {
   .box {
-    flex: 0 1 calc(45% - 30px); /* 2 per row on tablets */
+    flex: 0 1 calc(45% - 30px); 
   }
 }
 
 @media (max-width: 600px) {
   .box {
-    flex: 0 1 100%; /* 1 per row on mobile */
+    flex: 0 1 100%; 
   }
 }
